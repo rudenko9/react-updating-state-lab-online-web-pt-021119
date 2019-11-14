@@ -8,4 +8,4 @@ class YouTubeDebugger extends Ract.Component {
     )
   }
 }
- export default YouTubeDebugger
+ export default
