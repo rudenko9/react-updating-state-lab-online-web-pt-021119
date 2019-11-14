@@ -31,6 +31,7 @@ updateResolution = () => {
     settings: {
       ...this.state.settings,
       video: {
+        ...this.state.settings.video,
       resolution: '750p'
     }
     }
@@ -42,9 +43,9 @@ updateResolution = () => {
     return(
       <div id="YouTube">
       <label> Bitrate </label>
-      <button className="bitrate" onClick={this.updateBitrate}>{this.state.settings.bitrate}</button><br>
+      <button className="bitrate" onClick={this.updateBitrate}> </button><br>
       <label> Resolution </label>
-      <button className="resolution" onClick={this.updateResolution}>{this.state.settings.video.resolution}</button>
+      <button className="resolution" onClick={this.updateResolution}></button>
       </div>
     )
   }
