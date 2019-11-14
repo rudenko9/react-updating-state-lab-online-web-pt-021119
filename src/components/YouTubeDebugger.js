@@ -11,8 +11,9 @@ constructor() {
 }
 
 handleClick = () => {
+  let newCount = this.state.timesClicked + 1
   this.setState({
-    timesClicked: 1
+    timesClicked: newCount
   })
 }
 
